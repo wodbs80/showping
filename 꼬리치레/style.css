@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.box {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1200px;
+    height: 100px;
+
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+
+}
+
+.menu {
+    width: 500px;
+    height: 100px;
+
+}
+
+.slide {
+    width: 1200px;
+    height: 300px;
+
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+
+    display: flex;
+
+}
+
+.notice {
+    width: 400px;
+    height: 200px;
+}
+
+.banner {
+    width: 400px;
+    height: 200px;
+}
+
+.baro {
+    width: 400px;
+    height: 200px;
+}
+
+.footer {
+    width: 1200px;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+}
+.copy{
+    width: 800px;
+    height: 100px;
+}
+.sns{
+    width: 200px;
+    height: 100px;
+}
