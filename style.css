@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+
 }
 
 li {
@@ -35,14 +35,60 @@ a {
     height: 80px;
 
 }
+.logo img{
+    width: 200px;
+    height: 80px;
+}
 
 .menu {
     width: 500px;
     height: 100px;
+    display: flex;
+    align-items: end;
+}
+.menu li{
+    width: 25%;
+    height: 30px;
+    text-align: center;
+
+    border: 1px solid #ccc;
+}
+.menu li:hover{
+    background-color: black;
+    color: white;
 
 }
 
 .slide {
+    width: 1200px;
+    height: 300px;
+    font-size: 0;
+
+    overflow: hidden;
+
+}
+.slide li{
+    animation: sl 6s infinite;
+
+
+}
+@keyframes sl{
+    0%{
+        transform: translateY(-0px);
+    }
+    33%{
+        transform: translateY(-300px);
+    }
+    66%{
+        transform: translateY(-600px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+
+
+}
+.slide img{
     width: 1200px;
     height: 300px;
 
@@ -59,14 +105,31 @@ a {
 .notice {
     width: 400px;
     height: 200px;
+
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+.notice li{
+    margin-top: 10px;
+    font-size: 20px;
+border-bottom: 1px dashed #ccc;
 }
 
 .banner {
     width: 400px;
     height: 200px;
 }
+.banner img{
+    width: 400px;
+    height: 200px;
+
+}
 
 .baro {
+    width: 400px;
+    height: 200px;
+}
+.baro img{
     width: 400px;
     height: 200px;
 }
@@ -81,8 +144,18 @@ a {
 .copy{
     width: 800px;
     height: 100px;
+    padding-top: 20px;
+    text-align: center;
 }
 .sns{
     width: 200px;
     height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sns li img{
+    width: 60px;
+    height: 60px;
+
 }
